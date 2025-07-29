@@ -4,14 +4,15 @@ import { View, Text, StyleSheet, Image, SafeAreaView, TouchableHighlight, TextIn
 
 
 
-export default function App() {
+function App() {
+  
+  const [search, setSearch] = React.useState('');
 
-    const [search, setSearch] = React.useState('');
-
-    return (
-
-        // top headr
+    
+      return (
+      
     <View style={styles.container}>
+      {/* top header */}
         <SafeAreaView style={styles.header}>
             <Image
                 source={{ uri: '/Users/student/Downloads/KINFOLK_LOGO_SYSTEM_FINAL-05.png' }}
@@ -20,41 +21,42 @@ export default function App() {
                     height: 50 }}
             />
             {/* buttons on header */}
-    <View style={{ 
+            <View style={{ 
         flexDirection: 'row', 
         alignItems: 'center' }}>
             <TouchableHighlight onPress={()=>{}}
-            underlayColor="#0a7ea4"
-            >
+            underlayColor="#186882"
+            style={styles.iconButton}>
             <Image
                 source={{ uri: 'https://cdn-icons-png.flaticon.com/512/107/107799.png' }}
                 style={{ 
                     width: 24, 
                     height: 24,
                      }}
-                             />
+                        />
                          </TouchableHighlight>
 
         <TouchableHighlight onPress={()=>{}}
-            underlayColor="#0a7ea4"
-             >
+            underlayColor="#186882"
+            style={styles.iconButton}>
             <Image
                 source={{ uri: 'https://cdn-icons-png.flaticon.com/512/494/494568.png' }}
                 style={{ 
                         width: 24, 
                         height: 24,
                          }}
-                             />
+                            />
                          </TouchableHighlight>
 
         <TouchableHighlight onPress={()=>{}}
-            underlayColor="#0a7ea4"
-            style={styles.iconButton}>
+            underlayColor="#186882"
+            style={styles.iconButton}
+             >
                 <Image
                      source={{ uri: 'https://cdn-icons-png.flaticon.com/512/6522/6522516.png' }}
                      style={{ 
                         width: 24, 
-                        height: 24,
+                        height: 27,
                         
                          }}
                              />
@@ -62,6 +64,7 @@ export default function App() {
             </View>
          
         </SafeAreaView>
+
         {/* search bar */}
         <TextInput
                 style={styles.input}
@@ -87,7 +90,9 @@ export default function App() {
                          </TouchableHighlight>
                     
          </SafeAreaView>
+
          {/* photo layout */}
+         
          <View style={styles.cardsContainer}>
          <View style={styles.card}>
         <View style={styles.cardImagesRow}>
@@ -160,14 +165,12 @@ export default function App() {
       </View>
 
         </View> 
+        
         </View>
         
         );
     }
-    
 
-    
- 
 
 const styles = StyleSheet.create({
     container: {
@@ -194,7 +197,7 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 12,
         borderTopRightRadius: 12,
         elevation: 10,
-        shadowColor: '#000',
+        shadowColor: '#000000',
         shadowOffset: { width: 0, height: -3 },
         shadowOpacity: 0.1,
         shadowRadius: 3,
@@ -205,24 +208,26 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     iconButton: {
-        borderRadius: 11,
+        borderRadius: 15,
         backgroundColor: '#0a7ea4',
         padding: 4,
       },
       input: {
+        backgroundColor: '#f0f0f0',
         height: 40,
         margin: 12,
         borderWidth: 1,
+        borderRadius: 16,   
         paddingVertical: 8,
         paddingHorizontal: 16,
       },
       card: {
         backgroundColor: '#f0f0f0',  // light grey bg
         borderRadius: 16,            // round corners
-        padding: 10,                //  inner space
-        margin: 15,                  // space around card
+        padding: 8,                //  inner space
+        margin: 22,                  // space around card
         alignItems: 'center',       // align pics in center
-        width: 170,               
+        width: 171,               
         shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
@@ -238,27 +243,25 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         justifyContent: 'flex-start', // or 'space-between' or 'space-around'
       },
-      
-      
-     
       cardImage: {
-        width: 70,
-        height: 70,
-        margin: 9,
+        width: 90,
+        height: 90,
+        margin: 12,
         borderRadius: 8,
-        backgroundColor: '#ccc',           
+        backgroundColor: '#cccccc',           
       },
       cardTitle: {
         fontWeight: 'bold',
         fontSize: 17,
-        marginTop: 8,
-        color: '#222',
+        marginTop: 3,
+        color: '#222222',
       },
       cardName: {
-        color: '#444',
+        color: '#444444',
         fontSize: 14,
         marginTop: 2,
         marginBottom: 4,
       },
       
 });
+
