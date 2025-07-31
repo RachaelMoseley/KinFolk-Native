@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Image, SafeAreaView, TouchableHighlight, TextIn
 
 
 
-function App() {
+export default function App() {
   
   const [search, setSearch] = React.useState('');
 
