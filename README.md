@@ -37,6 +37,16 @@ They deliver the core value: Without these, the app cannot fulfill its business 
 
 ## Most Significant Benefit
 
+**Personalization**
+Users will create profile that clearly explain and show who they are as a creative worker through their skills, experience, personal mission statement, and a portfolio of work.
+
+**Search Capabilities**
+User will be able to search through both other user’s profiles and listed projects through useful filters to help them find exactly what they need.
+
+**Connection & Team Building**
+In platform users should be able to bookmark and show their interest in working on projects. Producers of said projects can keep track of who’s interested in their project and who they’re interested in so that they can begin building a teams for work and fostering community.
+
+
 ## Wireframes
 
 
