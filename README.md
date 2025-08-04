@@ -61,14 +61,12 @@ User will be able to search through both other user’s profiles and listed proj
 **Connection & Team Building**
 
 In platform users should be able to bookmark and show their interest in working on projects. Producers of said projects can keep track of who’s interested in their project and who they’re interested in so that they can begin building a teams for work and fostering community.
-<img width="972" height="584" alt="WireframeIdea1" src="https://github.com/user-attachments/assets/68e13ca4-8aa8-4f08-a428-bd9429485593" />
 
 
 ## Wireframes
-<img src="WireframeIdea1.png" alt="First Wireframe Idea" width="500">
-<img src="wireframeIdea2.png" alt="Seconnd Wireframe Idea" width="500">
-<img src="wireframeIdea3.png" alt="Finalized Wireframe Idea" width="500">
-
+<img width="972" height="584" alt="WireframeIdea1" src="https://github.com/user-attachments/assets/e90821b0-6ce4-4750-9a4b-a7e237aec9ad" />
+<img width="265" height="580" alt="WireframeIdea2" src="https://github.com/user-attachments/assets/105e2ba5-add5-4be8-80bf-e8c448700d42" />
+<img width="767" height="544" alt="WireframeIdea3" src="https://github.com/user-attachments/assets/21a59030-5312-44df-bba9-2313e946dfd1" />
 
 
 
