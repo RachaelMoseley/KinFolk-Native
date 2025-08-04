@@ -64,9 +64,9 @@ In platform users should be able to bookmark and show their interest in working 
 
 
 ## Wireframes
-<img srs="wireframeidea1" alt="First Wireframe Idea" width="500">
-<img srs="wireframeIdea2.png" alt="Seconnd Wireframe Idea" width="500">
-<img srs="wireframeIdea3.png" alt="Finalized Wireframe Idea" width="500">
+<img src="WireframeIdea1" alt="First Wireframe Idea" width="500">
+<img src="wireframeIdea2.png" alt="Seconnd Wireframe Idea" width="500">
+<img src="wireframeIdea3.png" alt="Finalized Wireframe Idea" width="500">
 
 
 
