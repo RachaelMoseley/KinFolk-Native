@@ -66,8 +66,7 @@ In platform users should be able to bookmark and show their interest in working 
 
 
 
-### Model
-Below in this  
+
 
 ## Installation 
 
