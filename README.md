@@ -41,6 +41,7 @@ Nice to have: add a notification feature so that the user can be updated on thei
 Why: Facilitates connection and team formation by allowing users to signal interest and keep track of potential collaborators or projects.
 
 **Why These 3?**
+
 They cover the full user journey: discovery, opportunity creation, and connection.
 They are feasible: Each is achievable within a 2-week sprint for a small team.
 They deliver the core value: Without these, the app cannot fulfill its business thesis of helping video work freelancers find and connect with each other for projects.
