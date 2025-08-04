@@ -8,7 +8,7 @@ Connect with create freelancers in video production to build teams and discover 
 3. [Wireframes](#wireframes)
 
 
-# Overview
+## Overview
 ### Description
 
 Creative freelancers working in video production, across film, music videos, commercials, etc. will use Kinfolk to find other creatives to build teams to produce their project or find potential projects they would like to work on.
