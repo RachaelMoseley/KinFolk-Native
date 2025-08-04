@@ -5,6 +5,7 @@ Connect with create freelancers in video production to build teams and discover 
 ## Table of Contents
 1. [Overview](#overview)
 2. [Product Spec](#product-spec)
+3. [Wireframes](#wireframes)
 
 
 # Overview
