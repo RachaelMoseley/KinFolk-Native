@@ -64,7 +64,7 @@ In platform users should be able to bookmark and show their interest in working 
 ## Wireframes
 
 
-## Schema
+
 ### Model
 Below in this  
 
